@@ -1,0 +1,55 @@
+#name {
+    font-family: "Dancing Script", cursive;
+    font-size: 3rem;
+    padding-top:2ch;
+}
+h2 {
+    font-weight:bold;
+    font-size: 3em;
+}
+body {
+    height: 100vh;
+    background-color: rgb(76, 130, 224);
+    font-family: "Ysabeau Infant", sans-serif;
+    padding-left: 2em;
+}
+#profile-picture {
+    border-radius: 50%;
+    margin: 1em;
+    width: 30vw;
+    border-color: rgb(27, 126, 226);
+    border-width:3dvi;
+    border-style:groove;
+}
+#navigation {
+    position:fixed;
+    top:0;
+    background-color: rgb(76, 130, 224);
+}
+#experience ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9em;
+    color: rgb(49, 14, 109);
+    list-style:none;
+}
+#experience ul li {
+    width: 10em;
+    height: 5em;
+    border-radius: 10%;
+    margin: 1em;
+    padding: 1em;
+    background-color: yellow;
+}
+#navigation ul {
+    padding-bottom:0;
+    list-style: none;
+}
+#connect ul {
+    list-style: none;
+}
+#git-image {
+    height: 30px;
+}
+
+        
