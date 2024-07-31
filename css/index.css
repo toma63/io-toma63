@@ -26,6 +26,12 @@ body {
     top:0;
     background-color: rgb(76, 130, 224);
 }
+#navigation ul {
+    display: flex;
+    gap: 1em;
+    padding-bottom:0;
+    list-style: none;
+}
 #experience ul {
     display: flex;
     flex-direction: row;
@@ -40,10 +46,6 @@ body {
     margin: 1em;
     padding: 1em;
     background-color: yellow;
-}
-#navigation ul {
-    padding-bottom:0;
-    list-style: none;
 }
 #connect ul {
     list-style: none;
