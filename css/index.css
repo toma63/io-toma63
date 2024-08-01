@@ -20,6 +20,10 @@ body {
     height: 100vh;
     background-color: rgb(76, 130, 224);
     font-family: "Ysabeau Infant", sans-serif;
+    margin-left: auto;
+}
+section, #name-container {
+    margin-left: 1em;
 }
 #bg-img {
     position: fixed; /* Fixed position to cover the entire viewport */
@@ -42,8 +46,9 @@ body {
 #navigation {
     position:fixed;
     top:0;
-    background-color: rgb(76, 130, 224);
+    opacity: 100%;
     width: 100%;
+    background-color: rgb(130, 130, 237);
 }
 #navigation ul {
     display: flex;
