@@ -52,6 +52,7 @@ section, #name-container {
 }
 #navigation ul {
     display: flex;
+    justify-content: center;
     gap: 4em;
     list-style: none;
     padding-bottom:0;
@@ -59,6 +60,9 @@ section, #name-container {
 #about, #experience, #skills, #projects, #connect {
     scroll-margin-top: 3em;
 }  
+#about p {
+    background-color: rgb(130, 130, 237);
+}
 #experience ul {
     display: flex;
     flex-direction: row;
