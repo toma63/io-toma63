@@ -1,7 +1,16 @@
+#name-container {
+    padding-top:2ch;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
 #name {
     font-family: "Dancing Script", cursive;
     font-size: 3rem;
-    padding-top:2ch;
+    padding-top: 0.5;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10%;
 }
 h2 {
     font-weight:bold;
@@ -11,7 +20,16 @@ body {
     height: 100vh;
     background-color: rgb(76, 130, 224);
     font-family: "Ysabeau Infant", sans-serif;
-    padding-left: 2em;
+}
+#bg-img {
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Move the image below other content */
+    object-fit: cover; /* Cover the entire space with the image */
+    opacity: 0.5; /* Adjust image opacity as needed */
 }
 #profile-picture {
     border-radius: 50%;
@@ -25,13 +43,17 @@ body {
     position:fixed;
     top:0;
     background-color: rgb(76, 130, 224);
+    width: 100%;
 }
 #navigation ul {
     display: flex;
-    gap: 1em;
-    padding-bottom:0;
+    gap: 4em;
     list-style: none;
+    padding-bottom:0;
 }
+#about, #experience, #skills, #projects, #connect {
+    scroll-margin-top: 3em;
+}  
 #experience ul {
     display: flex;
     flex-direction: row;
