@@ -21,6 +21,7 @@ body {
     background-color: rgb(76, 130, 224);
     font-family: "Ysabeau Infant", sans-serif;
     margin-left: auto;
+    /*background-image: url("../img/jp3.png");*/
 }
 section, #name-container {
     margin-left: 1em;
@@ -79,7 +80,19 @@ section, #name-container {
     background-color: yellow;
 }
 #connect ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
     list-style: none;
+}
+#connect ul li {
+    width: 10em;
+    height: 5em;
+    background-color: aqua;
+    border-radius: 10%;
+    margin: 1em;
+    padding: 1em;
+
 }
 #git-image {
     height: 30px;
