@@ -105,12 +105,12 @@ section, #name-container {
 }
 @media only screen and (min-width: 600px) {
     .grid-container {
-      grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 }
-  @media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 1150px) {
     .grid-container {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
   
