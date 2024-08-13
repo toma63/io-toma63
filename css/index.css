@@ -64,20 +64,27 @@ section, #name-container {
 #about p {
     background-color: rgb(130, 130, 237);
 }
-#experience ul {
+.exp-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.exp-item {
     display: flex;
     flex-direction: row;
-    font-size: 0.9em;
-    color: rgb(49, 14, 109);
-    list-style:none;
+    background-color:aqua;
+    border-radius: 0.8em;
+    padding: 0.5em;
+    width: 20em;
 }
-#experience ul li {
-    width: 10em;
-    height: 5em;
-    border-radius: 10%;
-    margin: 1em;
-    padding: 1em;
-    background-color: yellow;
+.one-experience {
+    display: flex;
+    flex-direction: column;
+}
+.date {
+    font-weight: bold;
+    margin-right: 1em;
+    min-width: fit-content;
 }
 #connect ul {
     display: flex;
