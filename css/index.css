@@ -64,18 +64,17 @@ section, #name-container {
 #about p {
     background-color: rgb(130, 130, 237);
 }
-.exp-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 30em));
+    gap: 10px; /* Space between rows and columns */
 }
-.exp-item {
+.grid-item {
     display: flex;
     flex-direction: row;
     background-color:aqua;
     border-radius: 0.8em;
     padding: 0.5em;
-    width: 20em;
 }
 .one-experience {
     display: flex;
