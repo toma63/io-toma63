@@ -46,6 +46,8 @@ section, #name-container {
 }
 #navigation {
     position:fixed;
+    display: flex;
+    justify-content: center;
     top:0;
     opacity: 100%;
     width: 100%;
@@ -53,8 +55,8 @@ section, #name-container {
 }
 #navigation ul {
     display: flex;
+    flex-direction: column; /* mobile first */
     justify-content: center;
-    gap: 4em;
     list-style: none;
     padding-bottom:0;
 }
@@ -107,10 +109,18 @@ section, #name-container {
     .grid-container {
         grid-template-columns: 1fr 1fr;
     }
+    #navigation ul {
+        flex-direction: row;
+        gap: 4em;
+    }
 }
 @media only screen and (min-width: 1150px) {
     .grid-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #navigation ul {
+        flex-direction: row;
+        gap: 4em;
     }
 }
   
